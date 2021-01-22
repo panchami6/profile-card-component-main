@@ -23,7 +23,7 @@ body{
 .outer-box{
     border: 1px;
     border-radius: 1rem;
-    height: 55%;
+    height: 53%;
     margin: auto;
     position: absolute;
     overflow: hidden;
@@ -42,7 +42,7 @@ hr{
 .hero-img{
     position: absolute;
     top: 86px;
-    left: 100px;
+    left: 110px;
     border-radius: 50%;
     border: 5px solid white;
     }
@@ -113,7 +113,7 @@ hr{
 
 @media only screen and (min-width: 501px) {
     .outer-box{
-        width: 23%;
+        width: 25%;
     }
 
     .bg-top{
