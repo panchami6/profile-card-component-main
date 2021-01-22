@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color:hsl(185, 75%, 39%);
+    overflow: hidden; 
+}
+
+.outer-box{
+    border: 1px;
+    border-radius: 1rem;
+    width: 25%;
+    height: 60%;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+hr{
+    opacity: 0.3;
+}
+.hero{
+    border: 5px white;
+    border-radius: 50%;
+}
+
+.hero-img{
+    position: absolute;
+    top: 86px;
+    left: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    }
+
+.hero-name{
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.hero-name .age{
+    padding: 0.4rem;
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+}
+
+.hero-name h3{
+    padding-bottom: 1rem;
+    display: inline;
+}
+
+.hero-name small{
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 59%);
+    font-size: 15px;
+    padding-top: 1rem;
+}
+
+.hero-about{
+    display: flex;
+}
+    
+.followers{
+    display: block;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.followers small{
+    color: hsl(0, 0%, 59%);
+}
+
+@media only screen and (max-width: 500px) {
+    .outer-box{
+        width: 70%;
+    }
+    
+    
+    .bg-top{
+        position: absolute;
+        bottom: 400px;
+        right: 200px;
+        width: 600px;
+       
+    }
+    
+    .bg-bottom{
+        position: absolute;
+        top: 320px;
+        left: 230px;
+        width: 670px;
+    
+    }
+   
+}
+
+@media only screen and (min-width: 501px) {
+    .outer-box{
+        width: 25%;
+    }
+
+    .bg-top{
+        position: absolute;
+        bottom: 400px;
+        right: 700px;
+        width: 600px;
+       
+    }
+    
+    .bg-bottom{
+        position: absolute;
+        top: 330px;
+        left: 700px;
+        width: 900px;    
+    }
+
+}
+
