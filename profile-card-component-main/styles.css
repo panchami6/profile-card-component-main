@@ -23,8 +23,7 @@ body{
 .outer-box{
     border: 1px;
     border-radius: 1rem;
-    width: 25%;
-    height: 60%;
+    height: 30%;
     margin: auto;
     position: absolute;
     overflow: hidden;
@@ -114,7 +113,7 @@ hr{
 
 @media only screen and (min-width: 501px) {
     .outer-box{
-        width: 30%;
+        width: 20%;
     }
 
     .bg-top{
